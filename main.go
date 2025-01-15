@@ -15,12 +15,12 @@ const (
 func main() {
 	rootCmd := &cobra.Command{
 		Use:   "gostatic",
-		Short: "a simple static site generator.",
+		Short: "A simple static site generator",
 	}
 
 	buildCmd := &cobra.Command{
 		Use:   "build",
-		Short: "Run the build function",
+		Short: "Build all markdown file in the source directory",
 		Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println("Running build function...")
 			Build()
