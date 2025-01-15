@@ -1,0 +1,2 @@
+# gostatic
+static site generator 
